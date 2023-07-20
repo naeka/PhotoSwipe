@@ -2865,7 +2865,7 @@ class MainScroll {
 
 const KeyboardKeyCodesMap = {
   Escape: 27,
-  z: 90,
+  // z: 90,
   ArrowLeft: 37,
   ArrowUp: 38,
   ArrowRight: 39,
@@ -2958,9 +2958,9 @@ class Keyboard {
           keydownAction = 'close';
         }
         break;
-      case getKeyboardEventKey('z', isKeySupported):
-        keydownAction = 'toggleZoom';
-        break;
+      // case getKeyboardEventKey('z', isKeySupported):
+      //   keydownAction = 'toggleZoom';
+      //   break;
       case getKeyboardEventKey('ArrowLeft', isKeySupported):
         axis = 'x';
         break;
